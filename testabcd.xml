@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Test">
+<!-- Suite -->
+<listeners>
+
+<listener class-name="Exportlistner.ExtentReportListener"/>
+
+</listeners>
+
+<test name="LOGIN">
+<classes>
+
+<class name="ABCD.ABCD.LOGIN"/>
+
+</classes>
+</test>
+</suite>
